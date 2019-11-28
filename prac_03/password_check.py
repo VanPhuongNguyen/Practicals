@@ -3,8 +3,8 @@ CP1404/CP5632 - Practical
 Password checker "skeleton" code to help you get started
 """
 
-MIN_LENGTH = 2
-MAX_LENGTH = 6
+MIN_LENGTH = 5
+MAX_LENGTH = 15
 SPECIAL_CHARS_REQUIRED = True
 SPECIAL_CHARACTERS = "!@#$%^&*()_-=+`~,./'[]<>?{}|\\"
 
@@ -19,13 +19,8 @@ def main():
     print("\t1 or more numbers")
     if SPECIAL_CHARS_REQUIRED:
         print("\tand 1 or more special characters: ", SPECIAL_CHARACTERS)
-    password = input("> ")
-    while not is_valid_password(password):
-        print("Invalid password!")
-        password = input("> ")
-    print("Your {}-character password is valid: {}".format(len(password),
-                                                           password))
-
+    password = get_password()
+    print_password(password)
 
 def is_valid_password(password):
     """Determine if the provided password is valid."""
@@ -61,6 +56,16 @@ def is_valid_password(password):
 
     # if we get here (without returning False), then the password must be valid
     return True
+
+def get_password():
+    password = input("> ")
+    while not is_valid_password(password):
+        print("Invalid password!")
+        password = input("> ")
+    return password
+
+def print_password(password):
+    return print("Your {}-character password is valid: {}".format(len(password), password))
 
 
 main()

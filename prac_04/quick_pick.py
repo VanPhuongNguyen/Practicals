@@ -14,6 +14,6 @@ for i in range(quick_pick_lines):
     for number in one_line:
         print('{:>2}'.format(number), end = ' ')
     
-    print('\n')
+    print()
 
 

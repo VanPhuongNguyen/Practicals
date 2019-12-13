@@ -16,5 +16,6 @@ while state:
         print(state, "is", STATE_NAMES[state])
     else:
         print("Invalid short state")
+        
     state = input("Enter short state: ")
     

@@ -26,4 +26,5 @@ def main():
     for key, value in my_dict.items():
         print('{0:<{1}} : {2}'.format(key, longest_word_len, value))
 
+
 main()

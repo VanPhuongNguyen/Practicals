@@ -8,7 +8,7 @@ _Your_ reason for doing this subject/degree probably has something to do
 with getting a job in the IT industry.
 
 _Our_ reason for teaching you things like we are today is the same - to
-prepare you for work in the industry.
+prepare you for work in the industry. 
 
 A common and important part of development jobs in the IT industry is
 doing **code reviews**, where a developer evaluates and comments on

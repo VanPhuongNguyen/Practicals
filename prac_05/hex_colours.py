@@ -13,4 +13,4 @@ def main():
             print("Invalid name")
         state = input("Enter color name: ")
 
-main()
+main() 

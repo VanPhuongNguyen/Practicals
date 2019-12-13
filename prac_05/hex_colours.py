@@ -12,5 +12,5 @@ def main():
         else:
             print("Invalid name")
         state = input("Enter color name: ")
-
+ 
 main() 

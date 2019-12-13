@@ -38,7 +38,7 @@ receive notifications when you're mentioned.
 ![GitHub notification settings](../images/05image1.png)
 
 Code reviews are often done via **pull requests** on GitHub
-**branches**.
+**branches**. 
 
 A branch is another copy or version of an entire repository. Branches
 are useful for things like working on new features or bug fixes, or in
